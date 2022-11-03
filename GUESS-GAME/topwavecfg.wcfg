@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/sessi/Documents/Code/Xlinux/GUESS-GAME/TOP_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="17" />
+   <wvobject fp_name="/top/lo_hi_user_input" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">lo_hi_user_input[1:0]</obj_property>
+      <obj_property name="ObjectShortName">lo_hi_user_input[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/clr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clr</obj_property>
+      <obj_property name="ObjectShortName">clr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/output" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">output[7:0]</obj_property>
+      <obj_property name="ObjectShortName">output[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/sel" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">sel[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/lohisignal" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">lohisignal[1:0]</obj_property>
+      <obj_property name="ObjectShortName">lohisignal[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/load" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">load[2:0]</obj_property>
+      <obj_property name="ObjectShortName">load[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/clear" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">clear[2:0]</obj_property>
+      <obj_property name="ObjectShortName">clear[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/outctrl" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">outctrl</obj_property>
+      <obj_property name="ObjectShortName">outctrl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/rpt" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rpt</obj_property>
+      <obj_property name="ObjectShortName">rpt</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider11" type="divider">
+      <obj_property name="label">STATES</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#ff0000</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/CU/ps" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">ps</obj_property>
+      <obj_property name="ObjectShortName">ps</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/CU/ns" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">ns</obj_property>
+      <obj_property name="ObjectShortName">ns</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider14" type="divider">
+      <obj_property name="label">FF STATES</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/DP/low_q" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">low_q[7:0]</obj_property>
+      <obj_property name="ObjectShortName">low_q[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/DP/high_q" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">high_q[7:0]</obj_property>
+      <obj_property name="ObjectShortName">high_q[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top/DP/guess_q" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">guess_q[7:0]</obj_property>
+      <obj_property name="ObjectShortName">guess_q[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>
