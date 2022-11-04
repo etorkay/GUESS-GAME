@@ -5,11 +5,11 @@ An 8-bit dedicated processor to play a guessing game. Two inputs are required to
 -   Otherwise if the hi_button is pressed, that means the guess is too high, and the High boundary becomes the current Guess
 -   The loop is then repeated with the calculation of the new Guess
 
-![Alogirithm](image/02.png)
+![Alogirithm](image/02.png?raw=true "Algorithm")
     
 
 
 
 
 
-![Datapath](image/01.png)
+![Datapath](image/01.png?raw=true "Datapath")
